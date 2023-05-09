@@ -55,7 +55,7 @@ function Formulario() {
   return (
     <div>
       <form onSubmit={handleSubmit}>
-        <h2>Ingreso de datos conductor y vehiculo:</h2>
+        <h2 className='colortitulo'>Ingreso de datos conductor y vehiculo:</h2>
         <label htmlFor='nombre'>Nombre:</label>
         <input
           type='text'
